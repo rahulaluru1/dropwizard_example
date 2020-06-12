@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d4fe57f-f4c7-4ba9-bef3-824a0cb0db35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dropwizard.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todos/demo/TodoAppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todos/demo/TodoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/todos/demo/resources/HelloWorldResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo-sample/todo-sample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todo_demo/todo_demo.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dropwizard" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dDV3r6TcvUwh9qns7z2utrCGnJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.todos.demo.resources" />
+      <recent name="com.todos.demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TodoApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.todos.demo.TodoApplication" />
+      <module name="dropwizard" />
+      <option name="PROGRAM_PARAMETERS" value="server sample.yml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.todos.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d4fe57f-f4c7-4ba9-bef3-824a0cb0db35" name="Default Changelist" comment="" />
+      <created>1591959454801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591959454801</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="482" y="108" key="#TodoApplication" timestamp="1591970799490">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="482" y="108" key="#TodoApplication/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591970799490" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591972424311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591972424311" />
+    <state x="2756" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1591970610138">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2756" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591970610138" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591970976214">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591970976214" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591974197659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591972829067" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591974197659" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591974197659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591972829067" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591974197659" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591974197659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591972829067" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591974197659" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591974197659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591972829067" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591974197659" />
+    <state x="2481" y="151" key="Maven.ArtifactSearchDialog" timestamp="1591970164276">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2481" y="151" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591970164276" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1591971735257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591971735257" />
+  </component>
+</project>
