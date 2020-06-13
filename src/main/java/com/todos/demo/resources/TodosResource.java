@@ -4,7 +4,6 @@ package com.todos.demo.resources;
 import com.todos.demo.model.Todo;
 import com.todos.demo.services.TodosService;
 
-import javax.annotation.processing.Generated;
 import javax.validation.constraints.NotNull;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
