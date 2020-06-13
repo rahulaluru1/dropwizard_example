@@ -11,7 +11,23 @@ public class TodosService {
         this.todosDao=todosDao;
     }
 
-    public List<Todo> getTodos(){
+    public List<Todo> getTodos() {
         return this.todosDao.getTodos();
+    }
+    public Todo getTodo(int todo_id){
+        return this.todosDao.getTodo(todo_id);
+    }
+
+    public void addTodo(Todo todo){
+         this.todosDao.addTodo(todo);
+    }
+
+    public Todo editTodo(Todo todo){
+        this.todosDao.editTodo(todo);
+        return this.todosDao.getTodo(Integer.parseInt(String.valueOf(todo.getTodo_id())));
+    }
+
+    public  int deleteTodo(int id){
+       return  this.todosDao.deleteTodo(id);
     }
 }

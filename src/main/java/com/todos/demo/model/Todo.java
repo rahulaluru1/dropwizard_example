@@ -1,44 +1,49 @@
 package com.todos.demo.model;
 
-public class Todo extends TodoList{
-    private Long id;
-    private String name;
-    private String description;
+public class Todo{
+    private Long todo_id;
+    private String todo_name;
+    private String todo_description;
+    private  Long todolist_id;
+    public Todo(){
 
-    public Todo(Long id, String name, String description, Long id1, String name1, String description1) {
-        super(id, name, description);
-        this.id = id1;
-        this.name = name1;
-        this.description = description1;
+    }
+    public Todo(Long id1, String name1, String description1,Long todolist_id) {
+        this.todo_id = id1;
+        this.todo_name = name1;
+        this.todo_description = description1;
+        this.todolist_id=todolist_id;
     }
 
-    @Override
-    public Long getId() {
-        return id;
+    public Long getTodolist_id() {
+        return todolist_id;
     }
 
-    @Override
-    public void setId(Long id) {
-        this.id = id;
+    public void setTodolist_id(Long todolist_id) {
+        this.todolist_id = todolist_id;
     }
 
-    @Override
-    public String getName() {
-        return name;
+    public Long getTodo_id() {
+        return todo_id;
     }
 
-    @Override
-    public void setName(String name) {
-        this.name = name;
+    public void setTodo_id(Long todo_id) {
+        this.todo_id = todo_id;
     }
 
-    @Override
-    public String getDescription() {
-        return description;
+    public String getTodo_name() {
+        return todo_name;
     }
 
-    @Override
-    public void setDescription(String description) {
-        this.description = description;
+    public void setTodo_name(String todo_name) {
+        this.todo_name = todo_name;
+    }
+
+    public String getTodo_description() {
+        return todo_description;
+    }
+
+    public void setTodo_description(String todo_description) {
+        this.todo_description = todo_description;
     }
 }
