@@ -1,21 +1,25 @@
 package com.todos.demo.model;
 
 public class TodoList {
-    private Long id;
+    private int id;
     private String name;
     private String description;
 
-    public TodoList(Long id, String name, String description) {
+    public TodoList(int id, String name, String description) {
         this.id = id;
         this.name = name;
         this.description = description;
     }
 
-    public Long getId() {
+    public TodoList() {
+
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -39,7 +39,7 @@ public class TodosResource {
 
     @PUT
     @Path("/edit/{id}")
-    public  Response editTodo(final @NotNull Todo todo, @PathParam("id") final Long id){
+    public  Response editTodo(final @NotNull Todo todo, @PathParam("id") final int id){
         todo.setTodo_id(id);
         return  Response.ok().entity(this.todosService.editTodo(todo)).build();
     }

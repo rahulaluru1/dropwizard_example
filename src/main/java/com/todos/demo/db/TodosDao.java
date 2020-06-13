@@ -11,10 +11,10 @@ import java.util.List;
 
 @RegisterMapper(TodosMapper.class)
 public interface TodosDao {
-    @SqlQuery("SELECT * FROM todos")
+    @SqlQuery("SELECT * FROM todos inner join todolist on todos.todolist_id=todolist.id")
     public List<Todo> getTodos();
 
-    @SqlQuery("Select * from todos where todo_id=:todo_id")
+    @SqlQuery("Select * from todos inner join todolist on todos.todolist_id=todolist.id where todo_id=:todo_id")
     public Todo getTodo(@Bind("todo_id") final int todo_id);
 
     @SqlUpdate("INSERT into `todos` ( `todo_name`, `todo_description`, `todolist_id` )"+
