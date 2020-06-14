@@ -26,9 +26,9 @@ public class TodoListResource {
     }
 
     @GET
-    @Path("{todolist_id}")
-    public  Response getTodoList(@PathParam("todolist_id") final int todolist_id){
-        return Response.ok().entity(todoListService.getTodoList(todolist_id)).build();
+    @Path("{id}")
+    public  Response getTodoList(@PathParam("id") final int id){
+        return Response.ok().entity(todoListService.getTodoList(id)).build();
     }
     @POST
    @Path("/add")
