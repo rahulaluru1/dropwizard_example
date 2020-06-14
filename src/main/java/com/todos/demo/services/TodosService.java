@@ -14,8 +14,8 @@ public class TodosService {
     public List<Todo> getTodos() {
         return this.todosDao.getTodos();
     }
-    public Todo getTodo(int todo_id){
-        return this.todosDao.getTodo(todo_id);
+    public Todo getTodo(int id){
+        return this.todosDao.getTodo(id);
     }
 
     public void addTodo(Todo todo){

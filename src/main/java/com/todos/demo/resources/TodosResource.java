@@ -25,8 +25,8 @@ public class TodosResource {
     }
 
     @GET
-    @Path("{todo_id}")
-    public Response getTodo(@PathParam("todo_id") final int todo_id){
+    @Path("{id}")
+    public Response getTodo(@PathParam("id") final int todo_id){
         return Response.ok().entity(this.todosService.getTodo(todo_id)).build();
     }
 
