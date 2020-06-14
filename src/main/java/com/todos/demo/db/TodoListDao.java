@@ -23,8 +23,8 @@ public interface TodoListDao {
     @SqlUpdate("delete from todolist where id= :id")
     int deleteTodoList(@Bind("id") final int id);
 
-//    @SqlQuery("INSERT into `todolist` ( `name`, `description`)"+
-//            "VALUES ( :name,:description)")
-//    public  void addTodoList(@BindBean TodoList todoList);
+    @SqlUpdate("INSERT into `todolist` ( `name`, `description`)"+
+            "VALUES ( :name,:description)")
+    public  void addTodoList(@BindBean TodoList todoList);
 
 }

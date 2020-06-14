@@ -30,8 +30,8 @@ public class TodoListService {
         return this.todoListDao.deleteTodoList(id);
     }
 
-//    public void addTodoList(TodoList todoList){
-//        this.todoListDao.addTodoList(todoList);
-//    }
+    public void addTodoList(TodoList todoList){
+        this.todoListDao.addTodoList(todoList);
+    }
 
 }

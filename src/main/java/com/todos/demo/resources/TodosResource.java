@@ -9,7 +9,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/todos")
+@Path("/tasks")
 @Consumes(MediaType.APPLICATION_JSON+"; charset=utf-8")
 @Produces(MediaType.APPLICATION_JSON)
 public class TodosResource {
@@ -18,6 +18,7 @@ public class TodosResource {
     public TodosResource(final TodosService todosService){
         this.todosService=todosService;
     }
+
     @GET
     public Response getTodos(){
         return Response.ok().entity(this.todosService.getTodos()).build();

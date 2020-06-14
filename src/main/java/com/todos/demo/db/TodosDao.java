@@ -21,7 +21,7 @@ public interface TodosDao {
                "VALUES ( :todo_name,:todo_description,:todolist_id)")
     public void addTodo(@BindBean Todo todo);
 
-    @SqlUpdate("update todos set todo_name=coalesce(:todo_name,todo_name), todo_description=coalesce(:todo_description,todo_description) where todo_id= :todo_id")
+    @SqlUpdate("update todos set todo_name=coalesce(:todo_wname,todo_name), todo_description=coalesce(:todo_description,todo_description) where todo_id= :todo_id")
     void editTodo(@BindBean Todo todo);
 
     @SqlUpdate("delete from todos where todo_id= :id")

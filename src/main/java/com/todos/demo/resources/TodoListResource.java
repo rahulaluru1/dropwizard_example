@@ -1,7 +1,7 @@
 package com.todos.demo.resources;
 
 
-import com.todos.demo.model.Todo;
+
 import com.todos.demo.model.TodoList;
 import com.todos.demo.services.TodoListService;
 
@@ -11,7 +11,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 
-@Path("/todolists")
+@Path("/todos")
 @Consumes(MediaType.APPLICATION_JSON+"; charset=utf-8")
 @Produces(MediaType.APPLICATION_JSON)
 public class TodoListResource {
@@ -30,12 +30,12 @@ public class TodoListResource {
     public  Response getTodoList(@PathParam("todolist_id") final int todolist_id){
         return Response.ok().entity(todoListService.getTodoList(todolist_id)).build();
     }
-//    @POST
-//    @Path("/add")
-//    public Response addTodoList(final @NotNull TodoList todoList){
-//        this.todoListService.addTodoList(todoList);
-//        return Response.ok().build();
-//    }
+    @POST
+   @Path("/add")
+    public Response addTodoList(final @NotNull TodoList todoList){
+        this.todoListService.addTodoList(todoList);
+       return Response.ok().build();
+    }
 
     @PUT
     @Path("/edit/{id}")
